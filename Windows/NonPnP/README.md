@@ -3,12 +3,11 @@ Introduction:
   
   In this, user application sends a name for example "Manoj" to the driver and returns the message "Hello Manoj!, greetings from NonPnP driver.".
 
-Build instructions:
+Instructions:
   1. Open NonPnP.sln and build the solution.
-  2. Run NonPnPDrv.sys service using osrloader.exe (Browse driver, Register service, Start service).
+  2. Run NonPnPDrv.sys service using osrloader.exe (Browse driver, Register Service, Start Service).
   3. Run NonPnPApp.exe.
-  
-  
+  4. Stop NonPnpDrv.sys service using osrloader.exe (Stop Service, Unregister Service).
   
   Input:
   Manoj
